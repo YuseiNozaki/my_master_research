@@ -6,7 +6,7 @@ library(semPlot)
 library(ggplot2)
 
 
-dat = read.csv('~/master_research/sem_data5.csv')
+dat = read.csv('./sem_data5.csv')
 dat = dat[,-1]
 
 
